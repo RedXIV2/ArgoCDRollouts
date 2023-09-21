@@ -8,6 +8,7 @@ spec:
   selector:
     matchLabels:
       app: canary-demo
+      test-label: dave-rocks
   template:
     metadata:
       labels:
