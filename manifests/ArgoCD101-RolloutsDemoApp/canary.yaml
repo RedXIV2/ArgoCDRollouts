@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: canary-demo
+	test-label: dave-rocks
     spec:
       containers:
         - name: canary-demo
